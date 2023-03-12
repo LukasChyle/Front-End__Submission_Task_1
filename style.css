@@ -9,13 +9,22 @@ body {
 }
 
 .header a {
+  text-decoration: none;
   padding: 30px;
   font-size: 20px;
   font-weight: 600;
 }
 
-a:hover {
+a:link {
   color: #000000;
+}
+
+a:visited {
+  color: #4f4f4f;
+}
+
+a:hover {
+  color: #ffffff;
 }
 
 .header {
