@@ -1,0 +1,74 @@
+<!-- Startsida (spara filen som index.html)
+• Skriv ditt namn som huvudrubrik (h1).
+Formatera ditt namn med en valfri ”Google Font”.
+Ändra färg och teckenstorlek (valfri formatering).
+• Visa en bild på dig själv under ditt namn.
+Spara bilden i en undermapp som heter images
+• Skriv lite om dig själv under bilden i ett stycke (valfri formatering med CSS)
+
+
+2. Skapa en enkel horisontell navigering
+• Visa tydliga länkar till alla sidor högst upp (på alla sidor).
+Formatera länkarna med CSS.
+Ta bort understrykning och visa en annan färg vid överrullning (hover).
+3. Skapa en sidfot
+• Sidfoten ska visas längst ner på alla sidor (behöver inte vara ”sticky”)
+Lägg till en horisontell linje (hr).
+Skriv följande text efter linjen:
+Copyright &copy; 2023 – DITT NAMN – DIN E-POST
+4. Validera alla HTML-filer med W3C Validator https://validator.w3.org/
+5. All CSS-kod måste placeras i en extern CSS-fil (OBS! Enbart en CSS-fil).
+Spara filen som style.css
+6. Ladda upp alla filer till en publik GitHub-Repo.
+7. Skapa en GitHub-Sajt (GitHub Pages) eller ett valfritt hosting-konto.
+8. Ladda upp en länk till din webbplats till studentportalen.
+Deadline: 2023-03-17 kl. 14.00 (Man får lämna in innan deadline) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lukas Chyle crazy bulldog programmer">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="header">
+        <a href="index.html">Introduction</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/LukasChyle" target="_blank" rel="norefferer">GitHub</a>
+    </nav>
+
+    <div class="main-wrapper">
+        <h1 class="profile-name" >Lukas Chyle</h1>
+        <img src="images\CrazyBulldog.png" alt="Profile picture">
+    <p class="introduction">
+        Hello there, I'm Lukas, the craziest bulldog you'll ever meet. <br> I may look tough on the
+        outside, but on the inside, I'm a programming genius. <br><br> When I'm not chewing on my favorite toy bone or
+        napping, I'm busy coding the next big thing. <br>
+        I love programming because it allows me to use my creativity and problem-solving skills to develop new software
+        and applications. <br> I'm constantly learning new programming languages and techniques, and I'm always up for a
+        challenge. <br><br>
+        Sometimes my programming work can be frustrating, and when that happens, I let off steam by running around the
+        house and barking at nothing. <br> My owners think it's hilarious, but I know it's just a way to clear my head
+        and get back to work. <br><br>
+        Despite my crazy behavior, I take my programming work seriously. <br> I may not be able to type with my paws,
+        but I'm a master at dictation and can write lines of code faster than most humans. <br> I'm always looking for
+        ways to push the limits and create something truly epic. <br><br>
+        In the end, whether I'm coding or running around like a maniac, I'm just a lovable bulldog with a passion for
+        technology. <br><br> Woof woof!
+    </p>
+</div>
+
+<footer>  
+    <hr>
+    Copyright &copy; 2023 - Lukas Chyle - lukas.chyle@yh.nackademin.se
+</footer>  
+</body>
+
+</html>
