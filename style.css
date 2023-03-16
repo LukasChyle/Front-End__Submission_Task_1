@@ -55,13 +55,13 @@ footer {
 .portfolio img {
   max-width: 500px;
   max-height: 200px;
-  object-fit:contain;
+  object-fit: contain;
   border-radius: 8px;
   border: 2px solid black;
 }
 
 .portfolio .child {
-  vertical-align:top;
+  vertical-align: top;
   display: inline-block;
   margin: 20px;
   width: 500px;
@@ -91,7 +91,7 @@ footer {
 }
 
 .contact div {
-  vertical-align:top;
+  vertical-align: top;
   display: inline-block;
   width: 400px;
   height: 400px;
@@ -107,5 +107,5 @@ iframe {
   width: 300px;
   height: 300px;
   border-radius: 8px;
-  border:2px solid black;
+  border: 2px solid black;
 }
