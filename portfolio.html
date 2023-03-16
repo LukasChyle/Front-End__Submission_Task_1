@@ -1,13 +1,6 @@
-<!-- Portfolio (spara filen som portfolio.html)
-• Presentera några av dina tidigare projekt i en lista.
-• Lägg till några skärmbilder på dina projekt.
-Spara bilderna i mappen images.
-• Skapa en länk till projektets GitHub-Repo (se punkt 6)
-Länken måste öppnas i en ny flik.
-Formatera länken med CSS (valfri formatering). -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +8,7 @@ Formatera länken med CSS (valfri formatering). -->
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <nav class="header">
         <a href="index.html">Introduction</a>
@@ -23,9 +17,58 @@ Formatera länken med CSS (valfri formatering). -->
         <a href="https://github.com/LukasChyle" target="_blank" rel="norefferer">GitHub</a>
     </nav>
 
-    <footer>  
+    <div class="portfolio">
+        <div class="child">
+            <a href="images\aoc.jpg" target="_blank"><img src="images\aoc.jpg" alt="project image" /></a>
+            <p>Kotlin solutions for some of Advent of Code 2022 puzzles</p>
+            <a href="https://github.com/LukasChyle/Kotlin_AdventOfCode_2022/tree/master/src/main/kotlin" target="_blank"
+                rel="norefferer">GitHub Repository</a>
+        </div>
+
+        <div class="child">
+            <a href="images\webshop.jpg" target="_blank"><img src="images\webshop.jpg" alt="project image" /></a>
+            <p>
+                Simple simulation of a webbshop for shoes.<br>
+                The program has several visible but unavailable funtions, that is not implemented as it was not
+                requested in the task. <br>
+                This is a Submission task for a functional programming course. The project is combined with a database
+                course based on MySQL.</p>
+            <a href="https://github.com/LukasChyle/FP_Submission_Task_1_Java/tree/master/src" target="_blank"
+                rel="norefferer">GitHub Repository</a>
+        </div>
+
+        <div class="child">
+            <a href="images\quizgame.jpg" target="_blank"><img src="images\quizgame.jpg" alt="project image" /></a>
+            <p>
+                This is a 1v1 quiz game made with simple client-server connection. <br> The project was a group task for
+                OOP-java course.</p>
+            <a href="https://github.com/LukasChyle/QuizDuel_GroupProject_Submission_Task_4/tree/master/src/main/java"
+                target="_blank" rel="norefferer">GitHub Repository</a>
+        </div>
+
+        <div class="child">
+            <a href="images\15puzzlegame.jpg" target="_blank"><img src="images\15puzzlegame.jpg"
+                    alt="project image" /></a>
+            <p>
+                Fifteen Puzzle game, move tiles in grid to order them from 1 to 15. <br> Group tast for OOP-Java course.
+            </p>
+            <a href="https://github.com/LukasChyle/OOP_Java_Submission_Task_3/blob/master/src/FifteenPuzzle.java"
+                target="_blank" rel="norefferer">GitHub Repository</a>
+        </div>
+
+        <div class="child">
+            <a href="images\chatroom.jpg" target="_blank"><img src="images\chatroom.jpg" alt="project image" /></a>
+            <p>
+                Simple (TCP) server-client chatroom. <br> Created as exercise.</p>
+            <a href="https://github.com/LukasChyle/Educational_OOP_Java/tree/master/src/sprint_4/chatroom_TCP"
+                target="_blank" rel="norefferer">GitHub Repository</a>
+        </div>
+    </div>
+
+    <footer>
         <hr>
         Copyright &copy; 2023 - Lukas Chyle - lukas.chyle@yh.nackademin.se
-    </footer> 
+    </footer>
 </body>
+
 </html>
